@@ -36,7 +36,7 @@ The interledger protocol treats each interledger payment as an independent entit
 
 Interledger payments do not carry a dedicated time-to-live or remaining-hops field. Instead, the amount field acts as an implicit time-to-live: Each time the payment is forwarded, the forwarding connector will take some fee out of the inbound amount. Once a connector recognizes that the inbound amount is worth less (though not necessarily numerically smaller) than the destination amount in the ILP header, it will refuse to forward the payment.
 
-See [IL-RFC 9999](../9999-glossary/9999-glossary.md) for definitions of terms like Transfer, Ledger, Connector, and Payment.
+See [IL-RFC 19](../0019-glossary/0019-glossary.md) for definitions of terms like Transfer, Ledger, Connector, and Payment.
 
 ## Overview
 
