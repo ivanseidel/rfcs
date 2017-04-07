@@ -4,7 +4,7 @@
 An administrative item that acts as a bucket of assets on a ledger.
 
 ## Application layer
-The mechanisms on top of the transport layer which embed it into an application, such as the
+The mechanisms on top of the [transport layer](#transport-layer) which embed it into an application, such as the
 [Simple Payment Setup Protocol](#spsp) for simple WebFinger-based discovery of PSK parameters, which is much easier
 to integrate into an end-user software application than the underlying PSK transport layer itself.
 
